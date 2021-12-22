@@ -6,8 +6,8 @@ import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Rectangle;
 
-import Other.SongList;
-import Other.SoundEffect;
+import object.SongList;
+import object.SoundEffect;
 
 public class Difficulty {
 	private Rectangle[] difficultyBounds = { 

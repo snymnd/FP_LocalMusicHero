@@ -8,9 +8,9 @@ import java.awt.event.KeyEvent;
 
 import javax.swing.JOptionPane;
 
-import Other.FadingText;
-import Other.User;
 import handlers.MouseHandler;
+import object.FadingText;
+import object.User;
 
 public class Settings {
 

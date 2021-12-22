@@ -1,4 +1,4 @@
-package Other;
+package object;
 
 import java.awt.event.KeyEvent;
 

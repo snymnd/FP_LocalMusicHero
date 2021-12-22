@@ -3,9 +3,8 @@ package main;
 import java.awt.Graphics;
 import java.awt.Image;
 
-import Other.SongList;
-
 import handlers.MouseHandler;
+import object.SongList;
 
 public class Menu {
 	private Image backgroundImage = new ImageLoader(ImageLoader.menuBG).getImage();

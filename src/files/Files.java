@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import Other.User;
+import object.User;
 
 public class Files {
 	private static String filePath = getDefaultDirectory() + "/GuitarHero/";

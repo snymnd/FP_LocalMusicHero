@@ -4,8 +4,8 @@ import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Rectangle;
 
-import Other.SongList;
-import Other.SoundEffect;
+import object.SongList;
+import object.SoundEffect;
 
 public class Map {
 	private Rectangle[] mapPoint = {new Rectangle(312, 428, 17, 17),

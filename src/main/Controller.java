@@ -10,10 +10,10 @@ import java.awt.image.BufferedImage;
 
 import javax.swing.JPanel;
 
-import Other.User;
 import files.Files;
 import handlers.KeyHandler;
 import handlers.MouseHandler;
+import object.User;
 
 public class Controller extends JPanel implements Runnable {
 	

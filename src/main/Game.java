@@ -15,13 +15,13 @@ import java.util.TimerTask;
 
 import javax.swing.JPanel;
 
-import Other.Brick;
-import Other.FadingText;
-import Other.SoundEffect;
-import Other.SpecialBrick;
-import Other.User;
 import handlers.KeyHandler;
 import handlers.MouseHandler;
+import object.Brick;
+import object.FadingText;
+import object.SoundEffect;
+import object.SpecialBrick;
+import object.User;
 
 public class Game extends JPanel{
 	private static final long serialVersionUID = 1L;

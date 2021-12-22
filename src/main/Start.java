@@ -4,8 +4,8 @@ import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Rectangle;
 
-import Other.SoundEffect;
 import handlers.MouseHandler;
+import object.SoundEffect;
 
 public class Start {
 	private Rectangle logoBounds = new Rectangle(Frame.WIDTH/2-351, -351, 702, 351);

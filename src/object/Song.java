@@ -1,4 +1,4 @@
-package Other;
+package object;
 
 public class Song {
 
