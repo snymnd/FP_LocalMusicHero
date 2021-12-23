@@ -23,26 +23,24 @@ public class Controller extends JPanel implements Runnable {
 	private Graphics2D g;
 	private BufferedImage image;
 	
-	//state defaul to menu
+	//default state on Menu
 	private static STATE state = STATE.MENU;
 	
 	private static Game game;
 	private static Menu menu;
 	private static Settings settings;
 	
-	//mousepoint berubah dengan eventlistenr yang diimplementasikan di handlers > MouseHandler (liat disitu)
 	public static Point mousePoint = new Point(0, 0);
-	
-	//font 
-	public static Font smallFont = new Font("TimesRoman", Font.PLAIN, 18);
-	public static Font largeFont = new Font("TimesRoman", Font.PLAIN, 22);
 	
 	public static int score = 0;
 	public static int difficulty = 0;
 
 	public static KeyHandler key;
 	
-	//constructor
+	//font
+	public static Font smallFont = new Font("TimesRoman", Font.PLAIN, 18);
+	public static Font bigFont = new Font("TimesRoman", Font.PLAIN, 22);
+	
 	public Controller() {
 		super();
 		setPreferredSize(new Dimension(Frame.WIDTH, Frame.HEIGHT));
@@ -99,7 +97,6 @@ public class Controller extends JPanel implements Runnable {
 //	    }
 //	}
 	
-	//inisiasi
 	private void init() {
 		//
 		image = new BufferedImage(Frame.WIDTH, Frame.HEIGHT, BufferedImage.TYPE_INT_RGB);
@@ -111,36 +108,29 @@ public class Controller extends JPanel implements Runnable {
 		this.addMouseListener(new MouseHandler());
 		this.addMouseMotionListener(new MouseHandler());
 		
-		// First Run
-		//object MainMenu > menu
 		menu = new Menu();
-		
-		//inisiasi FIles
+
 		Files.init();
 		
-		//inisiasi page setting ke setting jg user
 		settings = new Settings();
 		User user = new User();
 	}
 	
-	
-	//display yang dipanggi saat run, tergantun state yang sedang aktif
-	//tiap page punya fungsi tick dan render yang  akan dipanggil
 	private void display() {
 		g.setFont(smallFont);
 		switch(state) {
 		case MENU:
-			menu.tick();
+			menu.update();
 			menu.render(g);
 			break;
 			
 		case GAME:
-			game.tick();
+			game.update();
 			game.render(g);
 			break;
 			
 		case SETTINGS:
-			settings.tick();
+			settings.update();
 			settings.render(g);
 			break;
 			
@@ -152,8 +142,6 @@ public class Controller extends JPanel implements Runnable {
 		g2.dispose(); //
 	}
 	
-	
-	//untuk mengubah state
 	public static void switchStates(STATE state) {
 		Controller.state = state;
 		if(state == STATE.GAME) {

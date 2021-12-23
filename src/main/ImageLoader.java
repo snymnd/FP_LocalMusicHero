@@ -32,7 +32,7 @@ public class ImageLoader {
 		}
 	}
 	public BufferedImage getImage() {
-		return img; //return image yang dipanggil berdasarkan pathnya
+		return img; 
 	}
 	public BufferedImage getSubImage(int section) {
 		return img.getSubimage(0, section*25, 50, 25);

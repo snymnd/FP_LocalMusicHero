@@ -6,7 +6,6 @@ import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Rectangle;
 
-import object.SongList;
 import object.SoundEffect;
 
 public class Difficulty {
@@ -18,7 +17,6 @@ public class Difficulty {
 			new ImageLoader(ImageLoader.easyButton).getImage(), 
 			new ImageLoader(ImageLoader.mediumButton).getImage(),
 			new ImageLoader(ImageLoader.hardButton).getImage()  
-			//menyimpan path dari images untuk difficulty
 			};
 	private SoundEffect sfx = new SoundEffect();
 	private Rectangle songTitle =  new Rectangle(Frame.WIDTH/2-200, 100, 175, 90);
@@ -28,7 +26,7 @@ public class Difficulty {
 
 	}
 	
-	public void tick() {
+	public void update() {
 		for (int i = 0; i < difficultyBounds.length; i++) {
 			if(difficultyBounds[i].contains(Controller.mousePoint)) {
 				sfx.button2.play();

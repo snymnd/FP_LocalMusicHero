@@ -1,14 +1,12 @@
 package files;
 
-import java.awt.event.KeyEvent;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.Scanner;
 
-import object.User;
+import java.util.Scanner;
 
 public class Files {
 	private static String filePath = getDefaultDirectory() + "/GuitarHero/";

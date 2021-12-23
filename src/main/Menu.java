@@ -35,15 +35,15 @@ public class Menu {
 	}
 	
 	
-	public void tick() {
+	public void update() {
 		if(!mapMenu) {
-			start.tick();
+			start.update();
 		}else {
 			if(MouseHandler.MOUSEDOWN) {
 				if(!difficultyMenu) {
-					 map.tick();
+					 map.update();
 				}else {
-					difficulty.tick();
+					difficulty.update();
 				}	
 			}
 		}

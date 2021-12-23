@@ -2,7 +2,6 @@ package object;
 
 import java.awt.Image;
 import java.awt.Rectangle;
-import java.util.Queue;
 
 import main.Frame;
 import main.ImageLoader;
@@ -16,26 +15,27 @@ public class Brick{
 	private int ySpeed = 5;
 	private int poin = 2;
 	
-	private double height = 30;
-	private double width = 60;
+	private int height = 30;
+	private int width = 60;
 
 	public Rectangle bounds;
 	
 	public Brick(int line) {
 		this.line = line;
 		findGoal(); 
-		bounds = new Rectangle(x, y, (int)width, (int) height); 
+		bounds = new Rectangle(x, y, width, height); 
 		setImage();
 	}
 	
-	public void tick() {
+	public void update() {
 		if(!isDead) {	
 			if(y < Frame.HEIGHT + height) { 
                 y += ySpeed;
 			}else {
 				isDead = true;
 			}
-			bounds.setBounds(x, y, (int) width,(int) height);
+			//update brick position
+			bounds.setBounds(x, y, width, height);
 		}
 	}
 	
@@ -57,6 +57,7 @@ public class Brick{
 		}
 	}
 	
+	//setter
     public void setSpeed(int speed) {
         this.ySpeed = speed;
     }

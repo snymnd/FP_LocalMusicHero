@@ -29,7 +29,7 @@ public class Start {
 
 	}
 	
-	public void tick() {
+	public void update() {
 		dropLogo();
 		if(MouseHandler.MOUSEDOWN) {
 			if(optionsBounds[0].contains(Controller.mousePoint)) {

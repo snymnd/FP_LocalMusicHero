@@ -48,7 +48,7 @@ public class FadingText {
 		color = new Color(255, 255, 255);
 	}
 	
-	public void tick() {
+	public void update() {
 		y-=2; 
 		if(fadeAmount > 5) {
 			fadeAmount -= 5; 

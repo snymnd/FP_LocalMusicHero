@@ -1,6 +1,5 @@
 package main;
 
-
 import java.io.File;
 import java.io.IOException;
 
@@ -25,7 +24,7 @@ public class SoundPlayer {
 	}
 
 	public void play() {
-		//agar ada jeda saat sfx dimainkan sebelum masuk operasi selanjutnya
+		//make a delay to play the sound, before next instruction cut it
 		try {
 		Thread.sleep(300);
 		} catch (InterruptedException e) {

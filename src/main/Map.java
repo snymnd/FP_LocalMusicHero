@@ -21,7 +21,7 @@ public class Map {
 	public Map() {
 		
 	}
-	public void tick() {
+	public void update() {
 		for (int i = 0; i < mapPoint.length; i++) {
 		 	if(mapPoint[i].contains(Controller.mousePoint)) {
 		 		sfx.button1.play();
