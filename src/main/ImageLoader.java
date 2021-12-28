@@ -12,12 +12,11 @@ public class ImageLoader {
 	public static String bricks = "/Bricks.png";
 	public static String PlayButton = "/Play.png";
 	public static String SettingsButton = "/Setting.png";
-	public static String SiteButton = "/About.png";
 	public static String gameBG = "/Splash.png";
 	public static String settingsBG = "/SettingsBG.png";
 	public static String menuBG = "/Splash.png";
 	public static String resetScore = "/ResetScore.png";
-	public static String resetBinds = "/ResetBinds.png";
+
 	public static String easyButton = "/Easy.png";
 	public static String mediumButton = "/Medium.png";
 	public static String hardButton = "/Hard.png";

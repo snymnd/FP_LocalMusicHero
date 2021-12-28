@@ -3,6 +3,7 @@ package object;
 import java.awt.Color;
 import java.awt.Graphics;
 
+import main.Controller;
 import main.Frame;
 
 public class FadingText {
@@ -31,7 +32,7 @@ public class FadingText {
 			color = new Color(255, 255, 0);
 		}else if(kind == 3){ //Perfect
 			text = "+"+poin+"-PERFECT";
-			color = new Color(0, 255, 0);
+			color = new Color(30,180, 70);
 		}
 	}
     

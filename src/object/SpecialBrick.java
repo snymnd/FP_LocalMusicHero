@@ -6,7 +6,7 @@ import main.ImageLoader;
 
 public class SpecialBrick extends Brick{
 	
-	ImageLoader specialBrickImage = new ImageLoader(ImageLoader.specialBrick);
+	private ImageLoader specialBrickImage = new ImageLoader(ImageLoader.specialBrick);
 
 	public SpecialBrick(int line) {
 		super(line);

@@ -78,17 +78,17 @@ public class Brick{
 	public Image getImage() {
 		return brickImage;
 	}
-	public double getX() {
+	public int getX() {
 		return x;
 	}
-	public double getY() {
+	public int getY() {
 		return y;
 	}
 	public int getWidth() {
-		return (int) width;
+		return width;
 	}
 	public int getHeight() {
-		return (int) height;
+		return height;
 	}
 
 
