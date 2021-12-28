@@ -76,10 +76,10 @@ public class Song {
 		return timeSpecialBeat;
 	}
 	public Integer[] getTimeSpecialBeat1() {
-		return timeSpecialBeat;
+		return timeSpecialBeat1;
 	}
 	public Integer[] getTimeSpecialBeat2() {
-		return timeSpecialBeat;
+		return timeSpecialBeat2;
 	}
 
 }
