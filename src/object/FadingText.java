@@ -3,7 +3,6 @@ package object;
 import java.awt.Color;
 import java.awt.Graphics;
 
-import main.Controller;
 import main.Frame;
 
 public class FadingText {
@@ -30,7 +29,7 @@ public class FadingText {
         else if(kindScore == 2) { //Too Late
 			text = "+ " + poin + " Too Late";
 			color = new Color(255, 255, 0);
-		}else if(kind == 3){ //Perfect
+		}else if(kindScore == 3){ //Perfect
 			text = "+"+poin+"-PERFECT";
 			color = new Color(30,180, 70);
 		}
