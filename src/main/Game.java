@@ -57,7 +57,9 @@ public class Game extends JPanel {
    private boolean newHighScore = false;
 
    Random random = new Random();
+   
    Integer[] beat;
+   Integer[] specialBeat;
 
    public Game(int difficulty) {
       this.difficulty = difficulty;
@@ -66,14 +68,17 @@ public class Game extends JPanel {
       switch (difficulty) {
       case 0:
          beat = Menu.songList.song[Menu.chosenSongIdx].getTimeBeat();
+         specialBeat = Menu.songList.song[Menu.chosenSongIdx].getTimeSpecialBeat();
          break;
 
       case 1:
          beat = Menu.songList.song[Menu.chosenSongIdx].getTimeBeat1();
+         specialBeat = Menu.songList.song[Menu.chosenSongIdx].getTimeSpecialBeat1();
          break;
 
       case 2:
          beat = Menu.songList.song[Menu.chosenSongIdx].getTimeBeat2();
+         specialBeat = Menu.songList.song[Menu.chosenSongIdx].getTimeSpecialBeat2();
          break;
 
       default:
@@ -263,28 +268,28 @@ public class Game extends JPanel {
    public void createBricks() {
       int rand = 0;
       if (difficulty == 0) {
-         rand = random.nextInt(3);
-         if (Arrays.asList(beat).contains(beatClock) && (beatClock % 4 != 0)) {
-            brickQueue.add(new Brick(rand));
-         } else if (Arrays.asList(beat).contains(beatClock) && (beatClock % 4 == 0)) {
-            brickQueue.add(new SpecialBrick(rand));
-         }
+         if(Arrays.asList(beat).contains(beatClock)) {
+				brickQueue.add(new Brick(random.nextInt(3)));
+		 }
+         if(Arrays.asList(specialBeat).contains(beatClock)){
+				brickQueue.add(new SpecialBrick(random.nextInt(3)));
+		 }
 
       } else if (difficulty == 1) {
-         rand = random.nextInt(4);
-         if (Arrays.asList(beat).contains(beatClock) && (beatClock % 4 != 0)) {
-            brickQueue.add(new Brick(rand));
-         } else if (Arrays.asList(beat).contains(beatClock) && (beatClock % 4 == 0)) {
-            brickQueue.add(new SpecialBrick(rand));
-         }
+         if(Arrays.asList(beat).contains(beatClock)) {
+				brickQueue.add(new Brick(random.nextInt(4)));
+		 }
+         if(Arrays.asList(specialBeat).contains(beatClock)){
+				brickQueue.add(new SpecialBrick(random.nextInt(4)));
+		 }
 
       } else {
-         rand = random.nextInt(5);
-         if (Arrays.asList(beat).contains(beatClock) && (beatClock % 4 != 0)) {
-            brickQueue.add(new Brick(rand));
-         } else if (Arrays.asList(beat).contains(beatClock) && (beatClock % 4 == 0)) {
-            brickQueue.add(new SpecialBrick(rand));
-         }
+    	 if(Arrays.asList(beat).contains(beatClock)) {
+				brickQueue.add(new Brick(random.nextInt(5)));
+		 }
+       if(Arrays.asList(specialBeat).contains(beatClock)){
+				brickQueue.add(new SpecialBrick(random.nextInt(5)));
+		 }
       }
    }
 
