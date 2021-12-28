@@ -43,7 +43,7 @@ public class Game extends JPanel {
    private FadingText[] sideText;
 
    private int score = 0;
-   public static int time = 2;
+   public static int time = 61;
    public static int beatClock = 0;
    private int combo = 0;
 
