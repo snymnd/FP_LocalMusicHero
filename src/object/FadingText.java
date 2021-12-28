@@ -8,27 +8,27 @@ import main.Frame;
 
 public class FadingText {
 
-	private int kind;
+	private int kindScore;
 	private int y = 300;
 	private int x = 450;
-	
 	private int fadeAmount = 250; 
 	private String text = "";
 	public boolean isDead = false;
-	
 	private Color color;
 	
-	public FadingText(int kind, int poin) {
-		this.kind = kind;
+	public FadingText(int kindScore, int poin) {
+		this.kindScore = kindScore;
 		this.x = 900;
-		if(kind == 0) {
-			text = "-2-Miss";
+		if(kindScore == 0) {
+			text = "-2 Miss";
 			color = new Color(255, 0, 0);
-		}else if(kind == 1) { //Too Early
-			text = "+"+poin+"Too Early";
+		}
+        else if(kindScore == 1) { //Too Early
+			text = "+ " + poin + " Too Early";
 			color = new Color(255, 255, 0);
-		}else if(kind == 2) { //Too Late
-			text = "+"+poin+"-Too Late";
+		}
+        else if(kindScore == 2) { //Too Late
+			text = "+ " + poin + " Too Late";
 			color = new Color(255, 255, 0);
 		}else if(kind == 3){ //Perfect
 			text = "+"+poin+"-PERFECT";
@@ -36,11 +36,11 @@ public class FadingText {
 		}
 	}
     
-	public FadingText(int kind, int poin, int combo) {
-		this.kind = kind;
+	public FadingText(int kindScore, int poin, int combo) {
+		this.kindScore = kindScore;
 		this.x = 900;
 		color = new Color(255, 255, 255);
-		text = combo + "x" + " Combo!"; 
+		text = combo + "x Combo!"; 
 	}
 	
 	public FadingText(String text) {
@@ -50,10 +50,11 @@ public class FadingText {
 	}
 	
 	public void update() {
-		y-=2; 
+		y -= 2; 
 		if(fadeAmount > 5) {
 			fadeAmount -= 5; 
-		}else {
+		}
+        else {
 			isDead = true;
 		}
 	}
@@ -68,7 +69,7 @@ public class FadingText {
 	public void centerText(Graphics g) {
 		if(!isDead) {
 			g.setColor(new Color(255, 255, 255, fadeAmount));
-			g.drawString(text, Frame.WIDTH/2-g.getFontMetrics().stringWidth(text)/2, y);
+			g.drawString(text, Frame.WIDTH/2 - g.getFontMetrics().stringWidth(text)/2, y);
 		}
 	}
 }

@@ -31,8 +31,8 @@ public class Game extends JPanel {
    //Brick intersection indicators
    private Rectangle[] bounds = {
       new Rectangle(388, Frame.HEIGHT - 115, 300, 10), //top bound
-      new Rectangle(388, Frame.HEIGHT - 85, 300, 10)
-   }; //bottom bound
+      new Rectangle(388, Frame.HEIGHT - 85, 300, 10) //bottom bound
+   }; 
 
    private Rectangle backButton = new Rectangle(10, 10, 30, 30);
 

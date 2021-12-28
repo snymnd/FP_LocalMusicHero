@@ -11,7 +11,7 @@ public class SpecialBrick extends Brick{
 	public SpecialBrick(int line) {
 		super(line);
 		setPoin(10);
-        setSpeed(7);
+        setSpeed(8);
 	}
 	
 	@Override
