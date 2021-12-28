@@ -10,13 +10,9 @@ public class MouseHandler implements MouseMotionListener, MouseListener{
 	public static boolean MOUSEDOWN = false;
 	public static boolean hasPressed = false;
 
-	public MouseHandler() {
-		
-	}
+	public MouseHandler() {}
 	
-	public void mouseClicked(MouseEvent e) {	
-
-	}
+	public void mouseClicked(MouseEvent e) {}
 
 	public void mousePressed(MouseEvent e) {
 		if(!hasPressed) {
@@ -30,13 +26,9 @@ public class MouseHandler implements MouseMotionListener, MouseListener{
 		hasPressed = false;
 	}
 
-	public void mouseEntered(MouseEvent e) {
+	public void mouseEntered(MouseEvent e) {}
 
-	}
-
-	public void mouseExited(MouseEvent e) {
-
-	}
+	public void mouseExited(MouseEvent e) {}
 
 	public void mouseDragged(MouseEvent e) {
 		MOUSEDOWN = false;

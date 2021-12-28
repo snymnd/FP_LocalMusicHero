@@ -31,10 +31,10 @@ public class Brick{
 		if(!isDead) {	
 			if(y < Frame.HEIGHT + height) { 
                 y += ySpeed;
-			}else {
+			}
+            else {
 				isDead = true;
 			}
-			//update brick position
 			bounds.setBounds(x, y, width, height);
 		}
 	}
@@ -57,7 +57,7 @@ public class Brick{
 		}
 	}
 	
-	//setter
+	//Setter
     public void setSpeed(int speed) {
         this.ySpeed = speed;
     }
@@ -70,7 +70,7 @@ public class Brick{
 		this.poin = poin;
 	}
 	
-	//getter
+	//Getter
 	public int getPoin() {
 		return this.poin;
 	}
@@ -78,15 +78,19 @@ public class Brick{
 	public Image getImage() {
 		return brickImage;
 	}
+
 	public double getX() {
 		return x;
 	}
+
 	public double getY() {
 		return y;
 	}
+
 	public int getWidth() {
 		return (int) width;
 	}
+
 	public int getHeight() {
 		return (int) height;
 	}

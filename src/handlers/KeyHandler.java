@@ -7,13 +7,9 @@ public class KeyHandler implements KeyListener{
 	public int currentPress = -1;
 	public int hasReleased = -1;
 
-	public KeyHandler() {
-		
-	}
+	public KeyHandler() {}
 
-	public void keyTyped(KeyEvent e) {
-		
-	}
+	public void keyTyped(KeyEvent e) {}
 
 	public void keyPressed(KeyEvent e) {
 		currentPress = e.getKeyCode();

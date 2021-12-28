@@ -3,7 +3,6 @@ package object;
 import main.SoundPlayer;
 
 public class SoundEffect {
-
 	private String pathButton1 = ".//soundEffect//button-6.wav";
 	private String pathButton2 = ".//soundEffect//button-5.wav";
 
