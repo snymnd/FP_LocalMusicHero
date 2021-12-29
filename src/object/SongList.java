@@ -81,8 +81,8 @@ public class SongList {
         //Lagu 2
 		song[1] = new Song();
 		song[1].setPath("#");
-		song[1].setTitle("###");
-		song[1].setSubTitle("###");
+		song[1].setTitle("Bungong Jeumpah");
+		song[1].setSubTitle("Aceh");
 		timeBeat = new Integer[]{};
 		song[1].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -100,8 +100,8 @@ public class SongList {
         //Lagu 3
 		song[2] = new Song();
 		song[2].setPath("#");
-		song[2].setTitle("###");
-		song[2].setSubTitle("###");
+		song[2].setTitle("Butet");
+		song[2].setSubTitle("Sumatra Utara");
 		timeBeat = new Integer[]{};
 		song[2].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -119,8 +119,8 @@ public class SongList {
         //Lagu 4
 		song[3] = new Song();
 		song[3].setPath("#");
-		song[3].setTitle("###");
-		song[3].setSubTitle("###");
+		song[3].setTitle("Soleram");
+		song[3].setSubTitle("Riau");
 		timeBeat = new Integer[]{};
 		song[3].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -138,8 +138,8 @@ public class SongList {
         //Lagu 5
 		song[4] = new Song();
 		song[4].setPath("#");
-		song[4].setTitle("###");
-		song[4].setSubTitle("###");
+		song[4].setTitle("Lalan Belek");
+		song[4].setSubTitle("Bengkulu");
 		timeBeat = new Integer[]{};
 		song[4].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -157,8 +157,8 @@ public class SongList {
         //Lagu 6
 		song[5] = new Song();
 		song[5].setPath("#");
-		song[5].setTitle("###");
-		song[5].setSubTitle("###");
+		song[5].setTitle("Lipang-Lipang-Dang");
+		song[5].setSubTitle("Lampung");
 		timeBeat = new Integer[]{};
 		song[5].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -176,8 +176,8 @@ public class SongList {
         //Lagu 7
 		song[6] = new Song();
 		song[6].setPath("#");
-		song[6].setTitle("###");
-		song[6].setSubTitle("###");
+		song[6].setTitle("Keroncong Kemayoran");
+		song[6].setSubTitle("Jakarta");
 		timeBeat = new Integer[]{};
 		song[6].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -195,8 +195,8 @@ public class SongList {
         //Lagu 8
 		song[7] = new Song();
 		song[7].setPath("#");
-		song[7].setTitle("###");
-		song[7].setSubTitle("###");
+		song[7].setTitle("Gidang Talun");
+		song[7].setSubTitle("Yogyakarta");
 		timeBeat = new Integer[]{};
 		song[7].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -214,8 +214,8 @@ public class SongList {
         //Lagu 9
 		song[8] = new Song();
 		song[8].setPath("#");
-		song[8].setTitle("###");
-		song[8].setSubTitle("###");
+		song[8].setTitle("Rek Ayo Rek");
+		song[8].setSubTitle("Jawa Timur");
 		timeBeat = new Integer[]{};
 		song[8].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -233,8 +233,8 @@ public class SongList {
         //Lagu 10
 		song[9] = new Song();
 		song[9].setPath("#");
-		song[9].setTitle("###");
-		song[9].setSubTitle("###");
+		song[9].setTitle("Cik Cik Periuk");
+		song[9].setSubTitle("Kalimantan Barat");
 		timeBeat = new Integer[]{};
 		song[9].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -252,8 +252,8 @@ public class SongList {
         //Lagu 11
 		song[10] = new Song();
 		song[10].setPath("#");
-		song[10].setTitle("###");
-		song[10].setSubTitle("###");
+		song[10].setTitle("Ampar-Ampar Pisang");
+		song[10].setSubTitle("Kalimantan Selatan");
 		timeBeat = new Integer[]{};
 		song[10].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -271,8 +271,8 @@ public class SongList {
         //Lagu 12
 		song[11] = new Song();
 		song[11].setPath("#");
-		song[11].setTitle("###");
-		song[11].setSubTitle("###");
+		song[11].setTitle("Indung-Indung");
+		song[11].setSubTitle("Kalimantan Timur");
 		timeBeat = new Integer[]{};
 		song[11].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -290,8 +290,8 @@ public class SongList {
         //Lagu 13
 		song[12] = new Song();
 		song[12].setPath("#");
-		song[12].setTitle("###");
-		song[12].setSubTitle("###");
+		song[12].setTitle("Macepet Cepetan");
+		song[12].setSubTitle("Bali");
 		timeBeat = new Integer[]{};
 		song[12].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -309,8 +309,8 @@ public class SongList {
         //Lagu 14
 		song[13] = new Song();
 		song[13].setPath("#");
-		song[13].setTitle("###");
-		song[13].setSubTitle("###");
+		song[13].setTitle("Cempake");
+		song[13].setSubTitle("NTB");
 		timeBeat = new Integer[]{};
 		song[13].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -328,8 +328,8 @@ public class SongList {
         //Lagu 15
 		song[14] = new Song();
 		song[14].setPath("#");
-		song[14].setTitle("###");
-		song[14].setSubTitle("###");
+		song[14].setTitle("Anak Kambing Saya");
+		song[14].setSubTitle("NTT");
 		timeBeat = new Integer[]{};
 		song[14].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -347,8 +347,8 @@ public class SongList {
         //Lagu 16
 		song[15] = new Song();
 		song[15].setPath("#");
-		song[15].setTitle("###");
-		song[15].setSubTitle("###");
+		song[15].setTitle("Bulu Londong");
+		song[15].setSubTitle("Sulawesi Barat");
 		timeBeat = new Integer[]{};
 		song[15].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -366,8 +366,8 @@ public class SongList {
         //Lagu 17
 		song[16] = new Song();
 		song[16].setPath("#");
-		song[16].setTitle("###");
-		song[16].setSubTitle("###");
+		song[16].setTitle("Wangku Worio");
+		song[16].setSubTitle("Sulawesi Tenggara");
 		timeBeat = new Integer[]{};
 		song[16].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -385,8 +385,8 @@ public class SongList {
         //Lagu 18
 		song[17] = new Song();
 		song[17].setPath("#");
-		song[17].setTitle("###");
-		song[17].setSubTitle("###");
+		song[17].setTitle("O Ina Ni Keke");
+		song[17].setSubTitle("Sulawesi Utara");
 		timeBeat = new Integer[]{};
 		song[17].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -404,8 +404,8 @@ public class SongList {
         //Lagu 19
 		song[18] = new Song();
 		song[18].setPath("#");
-		song[18].setTitle("###");
-		song[18].setSubTitle("###");
+		song[18].setTitle("Rasa Sayange");
+		song[18].setSubTitle("Maluku");
 		timeBeat = new Integer[]{};
 		song[18].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -423,8 +423,8 @@ public class SongList {
         //Lagu 20
 		song[19] = new Song();
 		song[19].setPath("#");
-		song[19].setTitle("###");
-		song[19].setSubTitle("###");
+		song[19].setTitle("Borero");
+		song[19].setSubTitle("Maluku Utara");
 		timeBeat = new Integer[]{};
 		song[19].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -442,8 +442,8 @@ public class SongList {
         //Lagu 21
 		song[20] = new Song();
 		song[20].setPath("#");
-		song[20].setTitle("###");
-		song[20].setSubTitle("###");
+		song[20].setTitle("Satu Tungku Tiga Batu");
+		song[20].setSubTitle("Papua Barat");
 		timeBeat = new Integer[]{};
 		song[20].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
@@ -461,8 +461,8 @@ public class SongList {
         //Lagu 22
 		song[21] = new Song();
 		song[21].setPath("#");
-		song[21].setTitle("###");
-		song[21].setSubTitle("###");
+		song[21].setTitle("Yamko Rambe Yamko");
+		song[21].setSubTitle("Papua");
 		timeBeat = new Integer[]{};
 		song[21].setTimeBeat(timeBeat);
 		timeBeat = new Integer[]{};
