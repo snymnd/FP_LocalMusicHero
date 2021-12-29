@@ -266,7 +266,6 @@ public class Game extends JPanel {
    }
 
    public void createBricks() {
-      int rand = 0;
       if (difficulty == 0) {
          if(Arrays.asList(beat).contains(beatClock)) {
 				brickQueue.add(new Brick(random.nextInt(3)));

@@ -7,12 +7,12 @@ public class SongList {
 		init();
 	}
 
-	public Song[] song = new Song[5];
+	public Song[] song = new Song[22];
 	
 	public void init() {
-        //Manuk Dadali - Jawa Barat
+        //Lagu 1 - Manuk Dadali - Jawa Barat
 		song[0] = new Song();
-		song[0].setPath(".//soundEffect//dadali.wav");
+		song[0].setPath(".//soundEffect//dadali_jabar.wav");
 		song[0].setTitle("Manuk Dadali");
         song[0].setSubTitle("Jawa Barat");
 		timeBeat = new Integer[] {24, 42, 60, 72, 
@@ -78,95 +78,403 @@ public class SongList {
 		song[0].setTimeSpecialBeat2(timeBeat);
 
 		
-        //Manuk Dadali - Jawa Barat
+        //Lagu 2
 		song[1] = new Song();
-		song[1].setPath(".//soundEffect//dadali.wav");
-		song[1].setTitle("Ampar-ampar Pisang");
-		song[1].setSubTitle("Jawa Barat");
-		timeBeat = new Integer[]{1,3 ,6 ,9 ,12 ,15 ,18 ,21 ,24 ,27 ,30 ,33 ,36 ,39 ,42 ,45 ,48 ,51 ,54 ,57 ,60 ,63 ,66 ,69 ,72 ,75 ,78 ,81 ,84 ,87 ,90 ,93 ,96 ,99 ,102 ,105 ,108 ,111 ,114 ,117 ,120 ,123 ,126 ,129 ,132 ,135 ,138 ,141 ,144 ,147 ,150 ,153 ,156 ,159 ,162 ,165 ,168 };
+		song[1].setPath("#");
+		song[1].setTitle("###");
+		song[1].setSubTitle("###");
+		timeBeat = new Integer[]{};
 		song[1].setTimeBeat(timeBeat);
-		timeBeat = new Integer[]{1 ,159 ,162 ,165 ,168 };
+		timeBeat = new Integer[]{};
 		song[1].setTimeBeat1(timeBeat);
-		timeBeat = new Integer[]{165 ,168 };
+		timeBeat = new Integer[]{};
 		song[1].setTimeBeat2(timeBeat);
-		timeBeat = new Integer[]{441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+
+		timeBeat = new Integer[]{};
 		song[1].setTimeSpecialBeat(timeBeat);
-		timeBeat = new Integer[]{441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[1].setTimeSpecialBeat1(timeBeat);
-		timeBeat = new Integer[]{441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[1].setTimeSpecialBeat2(timeBeat);
 
-        //Manuk Dadali - Jawa Barat
-        song[2] = new Song();
-		song[2].setPath(".//soundEffect//dadali.wav");
-		song[2].setTitle("Manuk Dadali");
-		song[2].setSubTitle("Jawa Barat");
-		timeBeat = new Integer[]{30, 55, 79, 102, 126, 150, 175, 199, 221, 246, 270, 294, 320, 342, 
-            366, 390, 422, 421, 438, 445, 462, 467, 487, 493, 511, 516, 534, 540, 558, 564, 578};
+        //Lagu 3
+		song[2] = new Song();
+		song[2].setPath("#");
+		song[2].setTitle("###");
+		song[2].setSubTitle("###");
+		timeBeat = new Integer[]{};
 		song[2].setTimeBeat(timeBeat);
-		timeBeat = new Integer[]{8, 30, 36, 55, 60, 79, 104, 122, 128, 146, 151, 170, 176, 195, 
-            200, 219, 224, 241, 251, 257, 263, 266, 269, 290, 314, 340, 362, 386, 410, 442, 441, 
-            458, 465, 482, 487, 507, 513, 531, 516, 534, 540, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[2].setTimeBeat1(timeBeat);
-		timeBeat = new Integer[]{28, 50, 56, 75, 80, 99, 104, 122, 128, 146, 151, 170, 176, 195, 200, 
-            219, 224, 241, 251, 257, 263, 266, 269, 278, 290, 314, 324, 336, 340, 347, 356, 362, 374, 
-            386, 399, 410, 422, 431, 442, 441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[2].setTimeBeat2(timeBeat);
 
-		timeBeat = new Integer[]{441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[2].setTimeSpecialBeat(timeBeat);
-		timeBeat = new Integer[]{441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[2].setTimeSpecialBeat1(timeBeat);
-		timeBeat = new Integer[]{441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[2].setTimeSpecialBeat2(timeBeat);
 
-        //Manuk Dadali - Jawa Barat
+        //Lagu 4
 		song[3] = new Song();
-		song[3].setPath(".//soundEffect//dadali.wav");
-		song[3].setTitle("Manuk Dadali");
-		song[3].setSubTitle("Jawa Barat");
-		timeBeat = new Integer[]{30, 55, 79, 102, 126, 150, 175, 199, 221, 246, 270, 294, 320, 342, 
-            366, 390, 422, 421, 438, 445, 462, 467, 487, 493, 511, 516, 534, 540, 558, 564, 578};
+		song[3].setPath("#");
+		song[3].setTitle("###");
+		song[3].setSubTitle("###");
+		timeBeat = new Integer[]{};
 		song[3].setTimeBeat(timeBeat);
-		timeBeat = new Integer[]{8, 30, 36, 55, 60, 79, 104, 122, 128, 146, 151, 170, 176, 195, 
-            200, 219, 224, 241, 251, 257, 263, 266, 269, 290, 314, 340, 362, 386, 410, 442, 441, 
-            458, 465, 482, 487, 507, 513, 531, 516, 534, 540, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[3].setTimeBeat1(timeBeat);
-		timeBeat = new Integer[]{28, 50, 56, 75, 80, 99, 104, 122, 128, 146, 151, 170, 176, 195, 200, 
-            219, 224, 241, 251, 257, 263, 266, 269, 278, 290, 314, 324, 336, 340, 347, 356, 362, 374, 
-            386, 399, 410, 422, 431, 442, 441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[3].setTimeBeat2(timeBeat);
-		
-		timeBeat = new Integer[]{441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+
+		timeBeat = new Integer[]{};
 		song[3].setTimeSpecialBeat(timeBeat);
-		timeBeat = new Integer[]{441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[3].setTimeSpecialBeat1(timeBeat);
-		timeBeat = new Integer[]{441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[3].setTimeSpecialBeat2(timeBeat);
 
-        //Manuk Dadali - Jawa Barat
+        //Lagu 5
 		song[4] = new Song();
-		song[4].setPath(".//soundEffect//dadali.wav");
-		song[4].setTitle("Manuk Dadali");
-		song[4].setSubTitle("Jawa Barat");
-		timeBeat = new Integer[]{30, 55, 79, 102, 126, 150, 175, 199, 221, 246, 270, 294, 320, 342, 
-            366, 390, 422, 421, 438, 445, 462, 467, 487, 493, 511, 516, 534, 540, 558, 564, 578};
+		song[4].setPath("#");
+		song[4].setTitle("###");
+		song[4].setSubTitle("###");
+		timeBeat = new Integer[]{};
 		song[4].setTimeBeat(timeBeat);
-		timeBeat = new Integer[]{8, 30, 36, 55, 60, 79, 104, 122, 128, 146, 151, 170, 176, 195, 
-            200, 219, 224, 241, 251, 257, 263, 266, 269, 290, 314, 340, 362, 386, 410, 442, 441, 
-            458, 465, 482, 487, 507, 513, 531, 516, 534, 540, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[4].setTimeBeat1(timeBeat);
-		timeBeat = new Integer[]{28, 50, 56, 75, 80, 99, 104, 122, 128, 146, 151, 170, 176, 195, 200, 
-            219, 224, 241, 251, 257, 263, 266, 269, 278, 290, 314, 324, 336, 340, 347, 356, 362, 374, 
-            386, 399, 410, 422, 431, 442, 441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[4].setTimeBeat2(timeBeat);
 
-		timeBeat = new Integer[]{441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[4].setTimeSpecialBeat(timeBeat);
-		timeBeat = new Integer[]{441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
+		timeBeat = new Integer[]{};
 		song[4].setTimeSpecialBeat1(timeBeat);
-		timeBeat = new Integer[]{441, 458, 465, 482, 487, 507, 513, 531, 536, 554, 560, 578, 584, 598};
-		song[4].setTimeSpecialBeat2(timeBeat);		
+		timeBeat = new Integer[]{};
+		song[4].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 6
+		song[5] = new Song();
+		song[5].setPath("#");
+		song[5].setTitle("###");
+		song[5].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[5].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[5].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[5].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[5].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[5].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[5].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 7
+		song[6] = new Song();
+		song[6].setPath("#");
+		song[6].setTitle("###");
+		song[6].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[6].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[6].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[6].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[6].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[6].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[6].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 8
+		song[7] = new Song();
+		song[7].setPath("#");
+		song[7].setTitle("###");
+		song[7].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[7].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[7].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[7].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[7].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[7].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[7].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 9
+		song[8] = new Song();
+		song[8].setPath("#");
+		song[8].setTitle("###");
+		song[8].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[8].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[8].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[8].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[8].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[8].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[8].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 10
+		song[9] = new Song();
+		song[9].setPath("#");
+		song[9].setTitle("###");
+		song[9].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[9].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[9].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[9].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[9].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[9].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[9].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 11
+		song[10] = new Song();
+		song[10].setPath("#");
+		song[10].setTitle("###");
+		song[10].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[10].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[10].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[10].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[10].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[10].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[10].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 12
+		song[11] = new Song();
+		song[11].setPath("#");
+		song[11].setTitle("###");
+		song[11].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[11].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[11].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[11].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[11].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[11].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[11].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 13
+		song[12] = new Song();
+		song[12].setPath("#");
+		song[12].setTitle("###");
+		song[12].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[12].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[12].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[12].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[12].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[12].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[12].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 14
+		song[13] = new Song();
+		song[13].setPath("#");
+		song[13].setTitle("###");
+		song[13].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[13].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[13].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[13].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[13].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[13].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[13].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 15
+		song[14] = new Song();
+		song[14].setPath("#");
+		song[14].setTitle("###");
+		song[14].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[14].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[14].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[14].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[14].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[14].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[14].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 16
+		song[15] = new Song();
+		song[15].setPath("#");
+		song[15].setTitle("###");
+		song[15].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[15].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[15].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[15].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[15].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[15].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[15].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 17
+		song[16] = new Song();
+		song[16].setPath("#");
+		song[16].setTitle("###");
+		song[16].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[16].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[16].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[16].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[16].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[16].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[16].setTimeSpecialBeat2(timeBeat);
+        
+        //Lagu 18
+		song[17] = new Song();
+		song[17].setPath("#");
+		song[17].setTitle("###");
+		song[17].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[17].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[17].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[17].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[17].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[17].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[17].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 19
+		song[18] = new Song();
+		song[18].setPath("#");
+		song[18].setTitle("###");
+		song[18].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[18].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[18].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[18].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[18].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[18].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[18].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 20
+		song[19] = new Song();
+		song[19].setPath("#");
+		song[19].setTitle("###");
+		song[19].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[19].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[19].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[19].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[19].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[19].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[19].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 21
+		song[20] = new Song();
+		song[20].setPath("#");
+		song[20].setTitle("###");
+		song[20].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[20].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[20].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[20].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[20].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[20].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[20].setTimeSpecialBeat2(timeBeat);
+
+        //Lagu 22
+		song[21] = new Song();
+		song[21].setPath("#");
+		song[21].setTitle("###");
+		song[21].setSubTitle("###");
+		timeBeat = new Integer[]{};
+		song[21].setTimeBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[21].setTimeBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[21].setTimeBeat2(timeBeat);
+
+		timeBeat = new Integer[]{};
+		song[21].setTimeSpecialBeat(timeBeat);
+		timeBeat = new Integer[]{};
+		song[21].setTimeSpecialBeat1(timeBeat);
+		timeBeat = new Integer[]{};
+		song[21].setTimeSpecialBeat2(timeBeat);
 	}
-	
 }

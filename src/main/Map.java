@@ -10,10 +10,31 @@ import object.SoundEffect;
 public class Map {
    private Rectangle[] mapPoint = {
       new Rectangle(312, 428, 17, 17),
-      new Rectangle(408, 437, 17, 17),
-      new Rectangle(161, 329, 17, 17),
+      new Rectangle(66, 178, 17, 17),
+      new Rectangle(109, 214, 17, 17),
+      new Rectangle(187, 268, 17, 17),
+      new Rectangle(179, 340, 17, 17),
+
+      new Rectangle(244, 381, 17, 17),
       new Rectangle(295, 411, 17, 17),
-      new Rectangle(999, 329, 17, 17)
+      new Rectangle(364, 451, 17, 17),
+      new Rectangle(408, 437, 17, 17),
+      new Rectangle(391, 276, 17, 17),
+
+      new Rectangle(459, 326, 17, 17),
+      new Rectangle(492, 254, 17, 17),
+      new Rectangle(468, 456, 17, 17),
+      new Rectangle(513, 464, 17, 17),
+      new Rectangle(662, 487, 17, 17),
+      
+      new Rectangle(557, 337, 17, 17),
+      new Rectangle(611, 343, 17, 17),
+      new Rectangle(676, 245, 17, 17),
+      new Rectangle(744, 271, 17, 17),
+      new Rectangle(789, 340, 17, 17),
+      
+      new Rectangle(853, 326, 17, 17),
+      new Rectangle(999, 325, 17, 17)
    };
    private Image pin = new ImageLoader(ImageLoader.pin).getImage();
 
